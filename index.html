@@ -1,0 +1,684 @@
+!DOCTYPE html
+html lang=pt-BR
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleCatra Slim - O Melhor Redutor de Medidas do Brasiltitle
+    script src=httpscdn.tailwindcss.comscript
+    link rel=stylesheet href=httpscdnjs.cloudflare.comajaxlibsfont-awesome6.4.0cssall.min.css
+    style
+        @import url('httpsfonts.googleapis.comcss2family=Poppinswght@400;600;700;800&display=swap');
+        
+        body {
+            font-family 'Poppins', sans-serif;
+            background-color #f8fafc;
+            scroll-behavior smooth;
+        }
+        
+        .hero-gradient {
+            background linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+        }
+        
+        .pulse-animation {
+            animation pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform scale(1);
+            }
+            50% {
+                transform scale(1.05);
+            }
+            100% {
+                transform scale(1);
+            }
+        }
+        
+        .floating {
+            animation floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% {
+                transform translateY(0px);
+            }
+            50% {
+                transform translateY(-15px);
+            }
+            100% {
+                transform translateY(0px);
+            }
+        }
+        
+        .guarantee-badge {
+            clip-path polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+        }
+        
+        .ingredient-cardhover {
+            transform translateY(-5px);
+            box-shadow 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .countdown-item {
+            background linear-gradient(135deg, #3b82f6 0%, #10b981 100%);
+        }
+    style
+head
+body
+    !-- Header with Countdown Timer --
+    header class=bg-white shadow-md
+        div class=container mx-auto px-4 py-3 flex justify-between items-center
+            div class=flex items-center
+                img src=httpsvia.placeholder.com50x50 alt=NaturalZone Logo class=h-10 mr-2
+                span class=font-bold text-green-600 text-xlNaturalZonespan
+            div
+            div class=hidden mdflex items-center space-x-4
+                div class=text-sm font-semibold text-gray-700OFERTA TERMINA EMdiv
+                div class=flex space-x-2
+                    div class=countdown-item rounded-lg w-12 h-12 flex flex-col items-center justify-center text-white font-bold
+                        span id=hours23span
+                        span class=text-xsHORASspan
+                    div
+                    div class=countdown-item rounded-lg w-12 h-12 flex flex-col items-center justify-center text-white font-bold
+                        span id=minutes59span
+                        span class=text-xsMINspan
+                    div
+                    div class=countdown-item rounded-lg w-12 h-12 flex flex-col items-center justify-center text-white font-bold
+                        span id=seconds59span
+                        span class=text-xsSEGspan
+                    div
+                div
+            div
+            button class=mdhidden text-gray-600
+                i class=fas fa-bars text-2xli
+            button
+        div
+    header
+
+    !-- Hero Section --
+    section class=hero-gradient text-white py-12 mdpy-20
+        div class=container mx-auto px-4 flex flex-col mdflex-row items-center
+            div class=mdw-12 mb-10 mdmb-0
+                div class=bg-orange-500 text-white inline-block px-4 py-1 rounded-full mb-4 text-sm font-bold
+                    i class=fas fa-bolt mr-2iLANÇAMENTO EXCLUSIVO
+                div
+                h1 class=text-4xl mdtext-5xl font-bold mb-4 leading-tightCHEGOUUUU... O MELHOR REDUTOR DE MEDIDAS DO BRASIL!h1
+                p class=text-xl mb-6Perder peso, reduzir gordura localizada e definir a barriga nunca foi tão fácil!p
+                
+                div class=flex items-center mb-6
+                    div class=flex mr-4
+                        i class=fas fa-star text-yellow-300i
+                        i class=fas fa-star text-yellow-300i
+                        i class=fas fa-star text-yellow-300i
+                        i class=fas fa-star text-yellow-300i
+                        i class=fas fa-star text-yellow-300i
+                    div
+                    span class=font-semibold+10.000 clientes satisfeitosspan
+                div
+                
+                div class=bg-white text-green-800 p-4 rounded-lg mb-6 inline-block
+                    div class=font-boldOFERTA POR TEMPO LIMITADO!div
+                    divLeve 3 potes por apenas 12x de R$ 19,99div
+                div
+                
+                button class=bg-orange-500 hoverbg-orange-600 text-white font-bold py-4 px-8 rounded-full text-lg pulse-animation transition duration-300
+                    i class=fas fa-shopping-cart mr-2iCOMPRAR AGORA
+                button
+            div
+            div class=mdw-12 flex justify-center
+                img src=httpsvia.placeholder.com500x500 alt=Catra Slim class=w-full max-w-md floating
+            div
+        div
+    section
+
+    !-- Benefits Section --
+    section class=py-16 bg-white
+        div class=container mx-auto px-4
+            h2 class=text-3xl font-bold text-center mb-12 text-gray-800O QUE O span class=text-green-600CATRA SLIMspan PODE FAZER POR VOCÊh2
+            
+            div class=grid grid-cols-1 mdgrid-cols-3 gap-8
+                div class=bg-gray-50 p-6 rounded-xl border border-gray-100
+                    div class=bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto
+                        i class=fas fa-fire text-green-600 text-2xli
+                    div
+                    h3 class=text-xl font-bold text-center mb-3 text-gray-800Acelera o Metabolismoh3
+                    p class=text-gray-600 text-centerAtiva a queima de gordura mesmo em repouso, potencializando seus resultados.p
+                div
+                
+                div class=bg-gray-50 p-6 rounded-xl border border-gray-100
+                    div class=bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto
+                        i class=fas fa-utensils text-green-600 text-2xli
+                    div
+                    h3 class=text-xl font-bold text-center mb-3 text-gray-800Reduz a Fomeh3
+                    p class=text-gray-600 text-centerControla o apetite e diminui a vontade de comer doces e carboidratos.p
+                div
+                
+                div class=bg-gray-50 p-6 rounded-xl border border-gray-100
+                    div class=bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-4 mx-auto
+                        i class=fas fa-tint text-green-600 text-2xli
+                    div
+                    h3 class=text-xl font-bold text-center mb-3 text-gray-800Elimina Líquidosh3
+                    p class=text-gray-600 text-centerCombate a retenção de líquidos, reduzindo inchaços e medidas rapidamente.p
+                div
+            div
+        div
+    section
+
+    !-- BeforeAfter Section --
+    section class=py-16 bg-gray-50
+        div class=container mx-auto px-4
+            h2 class=text-3xl font-bold text-center mb-12 text-gray-800RESULTADOS REAIS DE QUEM USOU span class=text-green-600CATRA SLIMspanh2
+            
+            div class=grid grid-cols-1 mdgrid-cols-3 gap-8
+                div class=bg-white p-6 rounded-xl shadow-md
+                    div class=flex mb-4
+                        div class=w-12 pr-2
+                            div class=font-bold text-sm mb-1 text-centerANTESdiv
+                            img src=httpsvia.placeholder.com200x300 alt=Antes class=w-full rounded-lg
+                        div
+                        div class=w-12 pl-2
+                            div class=font-bold text-sm mb-1 text-centerDEPOISdiv
+                            img src=httpsvia.placeholder.com200x300 alt=Depois class=w-full rounded-lg
+                        div
+                    div
+                    div class=text-center
+                        div class=font-bold text-green-600-12kg em 8 semanasdiv
+                        div class=text-gray-600 text-smPerdi medidas que nunca tinha conseguido antes!div
+                    div
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    div class=flex mb-4
+                        div class=w-12 pr-2
+                            div class=font-bold text-sm mb-1 text-centerANTESdiv
+                            img src=httpsvia.placeholder.com200x300 alt=Antes class=w-full rounded-lg
+                        div
+                        div class=w-12 pl-2
+                            div class=font-bold text-sm mb-1 text-centerDEPOISdiv
+                            img src=httpsvia.placeholder.com200x300 alt=Depois class=w-full rounded-lg
+                        div
+                    div
+                    div class=text-center
+                        div class=font-bold text-green-600-8cm de cinturadiv
+                        div class=text-gray-600 text-smMinha barriga secou como nunca antes!div
+                    div
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    div class=flex mb-4
+                        div class=w-12 pr-2
+                            div class=font-bold text-sm mb-1 text-centerANTESdiv
+                            img src=httpsvia.placeholder.com200x300 alt=Antes class=w-full rounded-lg
+                        div
+                        div class=w-12 pl-2
+                            div class=font-bold text-sm mb-1 text-centerDEPOISdiv
+                            img src=httpsvia.placeholder.com200x300 alt=Depois class=w-full rounded-lg
+                        div
+                    div
+                    div class=text-center
+                        div class=font-bold text-green-600-15cm de quadrildiv
+                        div class=text-gray-600 text-smFinalmente consegui usar roupas que estavam guardadas!div
+                    div
+                div
+            div
+        div
+    section
+
+    !-- Ingredients Section --
+    section class=py-16 bg-white
+        div class=container mx-auto px-4
+            h2 class=text-3xl font-bold text-center mb-12 text-gray-800A FÓRMULA PODEROSA DO span class=text-green-600CATRA SLIMspanh2
+            
+            div class=grid grid-cols-1 smgrid-cols-2 lggrid-cols-3 gap-6
+                div class=ingredient-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition duration-300
+                    div class=flex items-center mb-4
+                        div class=bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4
+                            i class=fas fa-lemon text-green-600i
+                        div
+                        h3 class=text-xl font-bold text-gray-800Laranja Moroh3
+                    div
+                    p class=text-gray-600Rica em antocianinas, ajuda a reduzir a gordura abdominal e controlar o colesterol.p
+                div
+                
+                div class=ingredient-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition duration-300
+                    div class=flex items-center mb-4
+                        div class=bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4
+                            i class=fas fa-coffee text-green-600i
+                        div
+                        h3 class=text-xl font-bold text-gray-800Café Verdeh3
+                    div
+                    p class=text-gray-600Acelera o metabolismo e aumenta a queima de gordura, além de ser rico em antioxidantes.p
+                div
+                
+                div class=ingredient-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition duration-300
+                    div class=flex items-center mb-4
+                        div class=bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4
+                            i class=fas fa-seedling text-green-600i
+                        div
+                        h3 class=text-xl font-bold text-gray-800Psylliumh3
+                    div
+                    p class=text-gray-600Fibra natural que promove saciedade e melhora o funcionamento intestinal.p
+                div
+                
+                div class=ingredient-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition duration-300
+                    div class=flex items-center mb-4
+                        div class=bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4
+                            i class=fas fa-water text-green-600i
+                        div
+                        h3 class=text-xl font-bold text-gray-800Espirulinah3
+                    div
+                    p class=text-gray-600Superalimento rico em proteínas que ajuda a controlar a fome e fornece energia.p
+                div
+                
+                div class=ingredient-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition duration-300
+                    div class=flex items-center mb-4
+                        div class=bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4
+                            i class=fas fa-bolt text-green-600i
+                        div
+                        h3 class=text-xl font-bold text-gray-800Cafeínah3
+                    div
+                    p class=text-gray-600Estimula a termogênese, aumentando a queima de gordura e melhorando o foco.p
+                div
+                
+                div class=ingredient-card bg-gray-50 p-6 rounded-xl border border-gray-100 transition duration-300
+                    div class=flex items-center mb-4
+                        div class=bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4
+                            i class=fas fa-atom text-green-600i
+                        div
+                        h3 class=text-xl font-bold text-gray-800Cromoh3
+                    div
+                    p class=text-gray-600Regula os níveis de açúcar no sangue, reduzindo a vontade de comer doces.p
+                div
+            div
+        div
+    section
+
+    !-- How to Use Section --
+    section class=py-16 bg-gray-50
+        div class=container mx-auto px-4
+            h2 class=text-3xl font-bold text-center mb-12 text-gray-800COMO USAR O span class=text-green-600CATRA SLIMspanh2
+            
+            div class=grid grid-cols-1 mdgrid-cols-3 gap-8 max-w-5xl mx-auto
+                div class=flex flex-col items-center text-center
+                    div class=bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mb-41div
+                    h3 class=text-xl font-bold mb-2 text-gray-800Tome 2 cápsulash3
+                    p class=text-gray-600Pela manhã, 30 minutos antes do café da manhãp
+                div
+                
+                div class=flex flex-col items-center text-center
+                    div class=bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mb-42div
+                    h3 class=text-xl font-bold mb-2 text-gray-800Tome 2 cápsulash3
+                    p class=text-gray-600À tarde, 30 minutos antes do almoçop
+                div
+                
+                div class=flex flex-col items-center text-center
+                    div class=bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mb-43div
+                    h3 class=text-xl font-bold mb-2 text-gray-800Beba águah3
+                    p class=text-gray-600Mantenha-se hidratado durante o dia para potencializar os efeitosp
+                div
+            div
+        div
+    section
+
+    !-- Guarantee Section --
+    section class=py-16 bg-white
+        div class=container mx-auto px-4
+            div class=bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl p-8 mdp-12 text-white
+                div class=flex flex-col mdflex-row items-center
+                    div class=mdw-12 mb-8 mdmb-0 mdpr-8
+                        div class=bg-white text-green-600 font-bold text-xl mdtext-2xl px-6 py-3 rounded-lg inline-block mb-6
+                            GARANTIA DE 30 DIAS
+                        div
+                        h2 class=text-3xl mdtext-4xl font-bold mb-4RISCO ZERO PARA VOCÊ!h2
+                        p class=text-lg mb-6Se em 30 dias você não notar redução de medidas, melhora no metabolismo e controle do apetite, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia!p
+                        div class=flex items-center
+                            i class=fas fa-check-circle text-2xl mr-3i
+                            span class=font-semibold100% Naturalspan
+                        div
+                        div class=flex items-center mt-2
+                            i class=fas fa-check-circle text-2xl mr-3i
+                            span class=font-semiboldSem efeitos colateraisspan
+                        div
+                        div class=flex items-center mt-2
+                            i class=fas fa-check-circle text-2xl mr-3i
+                            span class=font-semiboldAprovado pela ANVISAspan
+                        div
+                    div
+                    div class=mdw-12 relative
+                        div class=bg-white text-green-600 font-bold text-center py-4 px-6 rounded-lg guarantee-badge absolute -top-8 right-0 mdright-10 z-10 shadow-lg
+                            div class=text-3xl100%div
+                            div class=text-smSATISFAÇÃOdiv
+                        div
+                        img src=httpsvia.placeholder.com500x400 alt=Garantia class=w-full rounded-lg shadow-xl relative z-0
+                    div
+                div
+            div
+        div
+    section
+
+    !-- Testimonials Section --
+    section class=py-16 bg-gray-50
+        div class=container mx-auto px-4
+            h2 class=text-3xl font-bold text-center mb-12 text-gray-800O QUE NOSSOS CLIENTES ESTÃO FALANDOh2
+            
+            div class=grid grid-cols-1 mdgrid-cols-2 lggrid-cols-3 gap-8
+                div class=bg-white p-6 rounded-xl shadow-md
+                    div class=flex items-center mb-4
+                        img src=httpsvia.placeholder.com60x60 alt=Cliente class=w-12 h-12 rounded-full mr-4
+                        div
+                            div class=font-bold text-gray-800Ana Carolinadiv
+                            div class=flex text-yellow-400 text-sm
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                            div
+                        div
+                    div
+                    p class=text-gray-600 italicEm apenas 3 semanas já perdi 5cm de cintura! Não acreditava que poderia funcionar tão rápido. Minha autoestima melhorou muito!p
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    div class=flex items-center mb-4
+                        img src=httpsvia.placeholder.com60x60 alt=Cliente class=w-12 h-12 rounded-full mr-4
+                        div
+                            div class=font-bold text-gray-800Roberto Silvadiv
+                            div class=flex text-yellow-400 text-sm
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                            div
+                        div
+                    div
+                    p class=text-gray-600 italicDepois de tentar vários produtos, finalmente encontrei algo que realmente funciona. Perdi 8kg em 2 meses sem passar fome!p
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    div class=flex items-center mb-4
+                        img src=httpsvia.placeholder.com60x60 alt=Cliente class=w-12 h-12 rounded-full mr-4
+                        div
+                            div class=font-bold text-gray-800Juliana Santosdiv
+                            div class=flex text-yellow-400 text-sm
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                                i class=fas fa-stari
+                            div
+                        div
+                    div
+                    p class=text-gray-600 italicMinha retenção de líquidos sumiu completamente! Me sinto mais leve e minhas roupas estão folgadas. Recomendo para todas minhas amigas!p
+                div
+            div
+        div
+    section
+
+    !-- Pricing Section --
+    section class=py-16 bg-white
+        div class=container mx-auto px-4
+            h2 class=text-3xl font-bold text-center mb-12 text-gray-800ESCOLHA SEU span class=text-green-600PACOTE IDEALspanh2
+            
+            div class=grid grid-cols-1 mdgrid-cols-3 gap-8 max-w-5xl mx-auto
+                div class=bg-gray-50 border-2 border-gray-200 rounded-xl p-6 transition duration-300 hoverborder-green-500 hovershadow-lg
+                    div class=text-center mb-6
+                        h3 class=text-xl font-bold text-gray-800 mb-21 POTEh3
+                        div class=text-4xl font-bold text-green-600R$ 97div
+                        div class=text-gray-500ou 3x de R$ 32,33div
+                    div
+                    ul class=space-y-3 mb-8
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            span30 dias de tratamentospan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanFrete grátisspan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanGarantia de 30 diasspan
+                        li
+                    ul
+                    button class=w-full bg-gray-200 hoverbg-gray-300 text-gray-800 font-bold py-3 px-4 rounded-full transition duration-300
+                        COMPRAR AGORA
+                    button
+                div
+                
+                div class=bg-green-50 border-2 border-green-500 rounded-xl p-6 transform scale-105 shadow-lg relative
+                    div class=absolute -top-3 left-12 transform -translate-x-12 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full
+                        MAIS VENDIDO
+                    div
+                    div class=text-center mb-6
+                        h3 class=text-xl font-bold text-gray-800 mb-23 POTESh3
+                        div class=text-4xl font-bold text-green-600R$ 197div
+                        div class=text-gray-500ou 12x de R$ 19,99div
+                        div class=text-green-500 font-bold mt-2ECONOMIZE R$ 94div
+                    div
+                    ul class=space-y-3 mb-8
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            span90 dias de tratamentospan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanFrete grátisspan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanGarantia de 30 diasspan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanE-book de receitas fitspan
+                        li
+                    ul
+                    button class=w-full bg-orange-500 hoverbg-orange-600 text-white font-bold py-3 px-4 rounded-full pulse-animation transition duration-300
+                        COMPRAR AGORA
+                    button
+                div
+                
+                div class=bg-gray-50 border-2 border-gray-200 rounded-xl p-6 transition duration-300 hoverborder-green-500 hovershadow-lg
+                    div class=text-center mb-6
+                        h3 class=text-xl font-bold text-gray-800 mb-25 POTESh3
+                        div class=text-4xl font-bold text-green-600R$ 297div
+                        div class=text-gray-500ou 12x de R$ 29,99div
+                        div class=text-green-500 font-bold mt-2ECONOMIZE R$ 188div
+                    div
+                    ul class=space-y-3 mb-8
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            span150 dias de tratamentospan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanFrete grátisspan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanGarantia de 30 diasspan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanE-book de receitas fitspan
+                        li
+                        li class=flex items-center
+                            i class=fas fa-check text-green-500 mr-2i
+                            spanAcesso ao grupo VIPspan
+                        li
+                    ul
+                    button class=w-full bg-gray-200 hoverbg-gray-300 text-gray-800 font-bold py-3 px-4 rounded-full transition duration-300
+                        COMPRAR AGORA
+                    button
+                div
+            div
+        div
+    section
+
+    !-- FAQ Section --
+    section class=py-16 bg-gray-50
+        div class=container mx-auto px-4 max-w-3xl
+            h2 class=text-3xl font-bold text-center mb-12 text-gray-800PERGUNTAS FREQUENTESh2
+            
+            div class=space-y-4
+                div class=bg-white p-6 rounded-xl shadow-md
+                    button class=flex justify-between items-center w-full text-left font-bold text-gray-800 onclick=toggleFAQ(1)
+                        spanQuanto tempo demora para chegarspan
+                        i class=fas fa-chevron-down transition-transform duration-300 id=faq-icon-1i
+                    button
+                    div class=mt-3 text-gray-600 hidden id=faq-content-1
+                        O prazo de entrega varia de acordo com sua localização, mas normalmente chega em 5 a 10 dias úteis após a confirmação do pagamento. Para grandes centros urbanos, pode chegar ainda mais rápido.
+                    div
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    button class=flex justify-between items-center w-full text-left font-bold text-gray-800 onclick=toggleFAQ(2)
+                        spanPosso tomar junto com outros medicamentosspan
+                        i class=fas fa-chevron-down transition-transform duration-300 id=faq-icon-2i
+                    button
+                    div class=mt-3 text-gray-600 hidden id=faq-content-2
+                        Catra Slim é 100% natural e geralmente não interfere com outros medicamentos. No entanto, recomendamos consultar seu médico antes de usar se você estiver em tratamento médico contínuo ou tiver condições de saúde específicas.
+                    div
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    button class=flex justify-between items-center w-full text-left font-bold text-gray-800 onclick=toggleFAQ(3)
+                        spanQuantos potes devo comprarspan
+                        i class=fas fa-chevron-down transition-transform duration-300 id=faq-icon-3i
+                    button
+                    div class=mt-3 text-gray-600 hidden id=faq-content-3
+                        Recomendamos o kit com 3 potes (tratamento para 3 meses) para melhores resultados. A perda de peso saudável e sustentável geralmente ocorre de forma gradual, e os melhores resultados são vistos após 60-90 dias de uso consistente.
+                    div
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    button class=flex justify-between items-center w-full text-left font-bold text-gray-800 onclick=toggleFAQ(4)
+                        spanQuais os efeitos colateraisspan
+                        i class=fas fa-chevron-down transition-transform duration-300 id=faq-icon-4i
+                    button
+                    div class=mt-3 text-gray-600 hidden id=faq-content-4
+                        Catra Slim é formulado com ingredientes naturais e geralmente não causa efeitos colaterais significativos. Algumas pessoas podem sentir um leve aumento de energia nas primeiras doses devido à cafeína, que tende a normalizar após alguns dias de uso.
+                    div
+                div
+                
+                div class=bg-white p-6 rounded-xl shadow-md
+                    button class=flex justify-between items-center w-full text-left font-bold text-gray-800 onclick=toggleFAQ(5)
+                        spanPreciso fazer dieta ou exercíciosspan
+                        i class=fas fa-chevron-down transition-transform duration-300 id=faq-icon-5i
+                    button
+                    div class=mt-3 text-gray-600 hidden id=faq-content-5
+                        Catra Slim funciona mesmo sem mudanças drásticas na rotina, mas para resultados ainda melhores, recomendamos uma alimentação balanceada e pelo menos 30 minutos de atividade física 3 vezes por semana. Incluímos um e-book com dicas nutricionais nos kits maiores para ajudar.
+                    div
+                div
+            div
+        div
+    section
+
+    !-- Final CTA Section --
+    section class=py-16 bg-green-600 text-white
+        div class=container mx-auto px-4 text-center
+            h2 class=text-3xl mdtext-4xl font-bold mb-6NÃO DEIXE PARA DEPOIS!h2
+            p class=text-xl mb-8 max-w-3xl mx-autoComece hoje sua transformação e garanta os melhores resultados com o Catra Slim. Oferta por tempo limitado!p
+            
+            div class=flex justify-center mb-8
+                div class=bg-white text-green-600 font-bold px-6 py-3 rounded-lg inline-flex items-center
+                    i class=fas fa-clock mr-2i
+                    spanOFERTA TERMINA EM span
+                    span id=final-hours class=ml-223spanspan id=final-minutes59spanspan id=final-seconds59span
+                div
+            div
+            
+            button class=bg-orange-500 hoverbg-orange-600 text-white font-bold py-4 px-12 rounded-full text-lg pulse-animation transition duration-300 mx-2 mb-4
+                i class=fas fa-shopping-cart mr-2iQUERO EMAGRECER AGORA
+            button
+            
+            div class=flex justify-center mt-8
+                img src=httpsvia.placeholder.com300x100 alt=Formas de pagamento class=h-12
+            div
+            
+            div class=mt-8 text-sm
+                pEste produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Resultados podem variar de pessoa para pessoa.p
+                p class=mt-2© 2023 NaturalZone. Todos os direitos reservados.p
+            div
+        div
+    section
+
+    !-- Floating WhatsApp Button --
+    div class=fixed bottom-6 right-6 z-50
+        a href=httpswa.me5511999999999 class=bg-green-500 hoverbg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg transition duration-300
+            i class=fab fa-whatsappi
+        a
+    div
+
+    script
+         Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            
+            const diff = endOfDay - now;
+            
+            const hours = Math.floor((diff % (1000  60  60  24))  (1000  60  60));
+            const minutes = Math.floor((diff % (1000  60  60))  (1000  60));
+            const seconds = Math.floor((diff % (1000  60))  1000);
+            
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            
+            document.getElementById('final-hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('final-minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('final-seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+        
+         FAQ Toggle
+        function toggleFAQ(num) {
+            const content = document.getElementById(`faq-content-${num}`);
+            const icon = document.getElementById(`faq-icon-${num}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('transform', 'rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('transform', 'rotate-180');
+            }
+        }
+        
+         Smooth scroll for anchor links
+        document.querySelectorAll('a[href^=#]').forEach(anchor = {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior 'smooth'
+                });
+            });
+        });
+        
+         Add to cart animation
+        document.querySelectorAll('button').forEach(button = {
+            if (button.textContent.includes('COMPRAR AGORA')) {
+                button.addEventListener('click', function() {
+                    this.innerHTML = 'i class=fas fa-check mr-2iADICIONADO AO CARRINHO!';
+                    this.classList.remove('bg-orange-500', 'hoverbg-orange-600');
+                    this.classList.add('bg-green-500', 'hoverbg-green-600');
+                    
+                    setTimeout(() = {
+                        this.innerHTML = 'i class=fas fa-shopping-cart mr-2iCOMPRAR AGORA';
+                        this.classList.remove('bg-green-500', 'hoverbg-green-600');
+                        this.classList.add('bg-orange-500', 'hoverbg-orange-600');
+                    }, 2000);
+                });
+            }
+        });
+    script
+body
+html
